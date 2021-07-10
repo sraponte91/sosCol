@@ -1,0 +1,93 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_2df9a91a"
+  },
+  {
+    "name": "become-volunteer",
+    "path": "/become-volunteer",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/become-volunteer.vue",
+    "chunkName": "pages/become-volunteer",
+    "_name": "_d45ed1f2"
+  },
+  {
+    "name": "cause-details",
+    "path": "/cause-details",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/cause-details.vue",
+    "chunkName": "pages/cause-details",
+    "_name": "_37cd80eb"
+  },
+  {
+    "name": "causes",
+    "path": "/causes",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/causes.vue",
+    "chunkName": "pages/causes",
+    "_name": "_55d11826"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_ce9ec226"
+  },
+  {
+    "name": "event-details",
+    "path": "/event-details",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/event-details.vue",
+    "chunkName": "pages/event-details",
+    "_name": "_4cba3d9c"
+  },
+  {
+    "name": "events",
+    "path": "/events",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/events.vue",
+    "chunkName": "pages/events",
+    "_name": "_7a4e2c5c"
+  },
+  {
+    "name": "gallery",
+    "path": "/gallery",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/gallery.vue",
+    "chunkName": "pages/gallery",
+    "_name": "_1625091f"
+  },
+  {
+    "name": "index-2",
+    "path": "/index-2",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/index-2.vue",
+    "chunkName": "pages/index-2",
+    "_name": "_bc660d78"
+  },
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/news.vue",
+    "chunkName": "pages/news",
+    "_name": "_1511b7d6"
+  },
+  {
+    "name": "news-details",
+    "path": "/news-details",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/news-details.vue",
+    "chunkName": "pages/news-details",
+    "_name": "_09bbaccb"
+  },
+  {
+    "name": "volunteers",
+    "path": "/volunteers",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/volunteers.vue",
+    "chunkName": "pages/volunteers",
+    "_name": "_7b0a2bec"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/samaponte/Documents/azino/sosCol/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4db183df"
+  }
+]

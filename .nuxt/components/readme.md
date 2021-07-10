@@ -1,0 +1,47 @@
+# Discovered Components
+
+This is an auto-generated list of components discovered by [nuxt/components](https://github.com/nuxt/components).
+
+You can directly use them in pages and other components without the need to import them.
+
+**Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
+
+- `<AboutCounter>` | `<about-counter>` (components/AboutCounter.vue)
+- `<AboutOne>` | `<about-one>` (components/AboutOne.vue)
+- `<AboutTwo>` | `<about-two>` (components/AboutTwo.vue)
+- `<BecomeVolunteer>` | `<become-volunteer>` (components/BecomeVolunteer.vue)
+- `<BlogDetails>` | `<blog-details>` (components/BlogDetails.vue)
+- `<BlogHome>` | `<blog-home>` (components/BlogHome.vue)
+- `<BlogPage>` | `<blog-page>` (components/BlogPage.vue)
+- `<Brands>` | `<brands>` (components/Brands.vue)
+- `<CallToAction>` | `<call-to-action>` (components/CallToAction.vue)
+- `<CallToActionTwo>` | `<call-to-action-two>` (components/CallToActionTwo.vue)
+- `<CauseDetails>` | `<cause-details>` (components/CauseDetails.vue)
+- `<CauseFeatured>` | `<cause-featured>` (components/CauseFeatured.vue)
+- `<Causes>` | `<causes>` (components/Causes.vue)
+- `<CausesPage>` | `<causes-page>` (components/CausesPage.vue)
+- `<ContactPage>` | `<contact-page>` (components/ContactPage.vue)
+- `<Donate>` | `<donate>` (components/Donate.vue)
+- `<EventDetails>` | `<event-details>` (components/EventDetails.vue)
+- `<EventPage>` | `<event-page>` (components/EventPage.vue)
+- `<EventTwo>` | `<event-two>` (components/EventTwo.vue)
+- `<Faq>` | `<faq>` (components/Faq.vue)
+- `<Footer>` | `<footer>` (components/Footer.vue)
+- `<Funfact>` | `<funfact>` (components/Funfact.vue)
+- `<GalleryPage>` | `<gallery-page>` (components/GalleryPage.vue)
+- `<GalleryTestimonial>` | `<gallery-testimonial>` (components/GalleryTestimonial.vue)
+- `<GalleryTwo>` | `<gallery-two>` (components/GalleryTwo.vue)
+- `<GoogleMap>` | `<google-map>` (components/GoogleMap.vue)
+- `<NavOne>` | `<nav-one>` (components/NavOne.vue)
+- `<NavTwo>` | `<nav-two>` (components/NavTwo.vue)
+- `<PageHeader>` | `<page-header>` (components/PageHeader.vue)
+- `<Pricing>` | `<pricing>` (components/Pricing.vue)
+- `<ServiceOne>` | `<service-one>` (components/ServiceOne.vue)
+- `<ServiceTwo>` | `<service-two>` (components/ServiceTwo.vue)
+- `<SliderOne>` | `<slider-one>` (components/SliderOne.vue)
+- `<SliderTwo>` | `<slider-two>` (components/SliderTwo.vue)
+- `<Team>` | `<team>` (components/Team.vue)
+- `<TestimonialOne>` | `<testimonial-one>` (components/TestimonialOne.vue)
+- `<VideoCard>` | `<video-card>` (components/VideoCard.vue)
+- `<VideoCardTwo>` | `<video-card-two>` (components/VideoCardTwo.vue)
+- `<Volunteers>` | `<volunteers>` (components/Volunteers.vue)
