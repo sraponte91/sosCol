@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"components/about-counter","2":"components/about-one","3":"components/about-two","4":"components/become-volunteer","5":"components/blog-details","6":"components/blog-home","7":"components/blog-page","8":"components/brands","9":"components/call-to-action","10":"components/call-to-action-two","11":"components/cause-details","12":"components/cause-featured","13":"components/causes","14":"components/causes-page","15":"components/contact-page","16":"components/donate","17":"components/event-details","18":"components/event-page","19":"components/event-two","20":"components/faq","21":"components/footer","22":"components/funfact","23":"components/gallery-page","24":"components/gallery-testimonial","25":"components/gallery-two","26":"components/google-map","27":"components/nav-one","28":"components/nav-two","29":"components/page-header","30":"components/pricing","31":"components/service-one","32":"components/service-two","33":"components/slider-one","34":"components/slider-two","35":"components/team","36":"components/testimonial-one","37":"components/video-card","38":"components/video-card-two","39":"components/volunteers","40":"pages/about","41":"pages/become-volunteer","42":"pages/cause-details","43":"pages/causes","44":"pages/contact","45":"pages/event-details","46":"pages/events","47":"pages/gallery","48":"pages/index","49":"pages/index-2","50":"pages/news","51":"pages/news-details","52":"pages/volunteers"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"components/about-counter","2":"components/about-one","3":"components/about-two","4":"components/become-volunteer","5":"components/blog-details","6":"components/blog-home","7":"components/blog-page","8":"components/brands","9":"components/call-to-action","10":"components/call-to-action-two","11":"components/cause-details","12":"components/cause-featured","13":"components/causes","14":"components/causes-page","15":"components/contact-page","16":"components/donate","17":"components/event-details","18":"components/event-page","19":"components/event-two","20":"components/faq","21":"components/footer","22":"components/funfact","23":"components/gallery-page","24":"components/gallery-testimonial","25":"components/gallery-two","26":"components/google-map","27":"components/nav-one","28":"components/nav-two","29":"components/page-header","30":"components/pricing","31":"components/service-one","32":"components/service-two","33":"components/slider-one","34":"components/slider-two","35":"components/team","36":"components/testimonial-one","37":"components/video-card","38":"components/video-card-two","39":"components/volunteers","40":"pages/about","41":"pages/become-volunteer","42":"pages/cause-details","43":"pages/causes","44":"pages/contact","45":"pages/event-details","46":"pages/events","47":"pages/gallery","48":"pages/index","49":"pages/index-1","50":"pages/news","51":"pages/news-details","52":"pages/volunteers"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -1446,7 +1446,7 @@ const _7a4e2c5c = () => interopDefault(__webpack_require__.e(/* import() | pages
 
 const _1625091f = () => interopDefault(__webpack_require__.e(/* import() | pages/gallery */ 47).then(__webpack_require__.bind(null, 75)));
 
-const _bc660d78 = () => interopDefault(__webpack_require__.e(/* import() | pages/index-2 */ 49).then(__webpack_require__.bind(null, 76)));
+const _bc823c7a = () => interopDefault(__webpack_require__.e(/* import() | pages/index-1 */ 49).then(__webpack_require__.bind(null, 76)));
 
 const _1511b7d6 = () => interopDefault(__webpack_require__.e(/* import() | pages/news */ 50).then(__webpack_require__.bind(null, 77)));
 
@@ -1498,9 +1498,9 @@ const routerOptions = {
     component: _1625091f,
     name: "gallery"
   }, {
-    path: "/index-2",
-    component: _bc660d78,
-    name: "index-2"
+    path: "/index-1",
+    component: _bc823c7a,
+    name: "index-1"
   }, {
     path: "/news",
     component: _1511b7d6,
@@ -2288,43 +2288,43 @@ function wrapFunctional(options) {
 const components = {
   AboutCounter: () => __webpack_require__.e(/* import() | components/about-counter */ 1).then(__webpack_require__.bind(null, 30)).then(c => wrapFunctional(c.default || c)),
   AboutOne: () => __webpack_require__.e(/* import() | components/about-one */ 2).then(__webpack_require__.bind(null, 39)).then(c => wrapFunctional(c.default || c)),
-  AboutTwo: () => __webpack_require__.e(/* import() | components/about-two */ 3).then(__webpack_require__.bind(null, 49)).then(c => wrapFunctional(c.default || c)),
+  AboutTwo: () => __webpack_require__.e(/* import() | components/about-two */ 3).then(__webpack_require__.bind(null, 60)).then(c => wrapFunctional(c.default || c)),
   BecomeVolunteer: () => __webpack_require__.e(/* import() | components/become-volunteer */ 4).then(__webpack_require__.bind(null, 67)).then(c => wrapFunctional(c.default || c)),
-  BlogDetails: () => __webpack_require__.e(/* import() | components/blog-details */ 5).then(__webpack_require__.bind(null, 57)).then(c => wrapFunctional(c.default || c)),
+  BlogDetails: () => __webpack_require__.e(/* import() | components/blog-details */ 5).then(__webpack_require__.bind(null, 55)).then(c => wrapFunctional(c.default || c)),
   BlogHome: () => __webpack_require__.e(/* import() | components/blog-home */ 6).then(__webpack_require__.bind(null, 35)).then(c => wrapFunctional(c.default || c)),
-  BlogPage: () => __webpack_require__.e(/* import() | components/blog-page */ 7).then(__webpack_require__.bind(null, 56)).then(c => wrapFunctional(c.default || c)),
+  BlogPage: () => __webpack_require__.e(/* import() | components/blog-page */ 7).then(__webpack_require__.bind(null, 54)).then(c => wrapFunctional(c.default || c)),
   Brands: () => __webpack_require__.e(/* import() | components/brands */ 8).then(__webpack_require__.bind(null, 29)).then(c => wrapFunctional(c.default || c)),
-  CallToAction: () => __webpack_require__.e(/* import() | components/call-to-action */ 9).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c)),
-  CallToActionTwo: () => __webpack_require__.e(/* import() | components/call-to-action-two */ 10).then(__webpack_require__.bind(null, 62)).then(c => wrapFunctional(c.default || c)),
+  CallToAction: () => __webpack_require__.e(/* import() | components/call-to-action */ 9).then(__webpack_require__.bind(null, 52)).then(c => wrapFunctional(c.default || c)),
+  CallToActionTwo: () => __webpack_require__.e(/* import() | components/call-to-action-two */ 10).then(__webpack_require__.bind(null, 49)).then(c => wrapFunctional(c.default || c)),
   CauseDetails: () => __webpack_require__.e(/* import() | components/cause-details */ 11).then(__webpack_require__.bind(null, 40)).then(c => wrapFunctional(c.default || c)),
-  CauseFeatured: () => __webpack_require__.e(/* import() | components/cause-featured */ 12).then(__webpack_require__.bind(null, 50)).then(c => wrapFunctional(c.default || c)),
+  CauseFeatured: () => __webpack_require__.e(/* import() | components/cause-featured */ 12).then(__webpack_require__.bind(null, 61)).then(c => wrapFunctional(c.default || c)),
   Causes: () => __webpack_require__.e(/* import() | components/causes */ 13).then(__webpack_require__.bind(null, 34)).then(c => wrapFunctional(c.default || c)),
   CausesPage: () => __webpack_require__.e(/* import() | components/causes-page */ 14).then(__webpack_require__.bind(null, 41)).then(c => wrapFunctional(c.default || c)),
   ContactPage: () => __webpack_require__.e(/* import() | components/contact-page */ 15).then(__webpack_require__.bind(null, 42)).then(c => wrapFunctional(c.default || c)),
-  Donate: () => __webpack_require__.e(/* import() | components/donate */ 16).then(__webpack_require__.bind(null, 63)).then(c => wrapFunctional(c.default || c)),
+  Donate: () => __webpack_require__.e(/* import() | components/donate */ 16).then(__webpack_require__.bind(null, 50)).then(c => wrapFunctional(c.default || c)),
   EventDetails: () => __webpack_require__.e(/* import() | components/event-details */ 17).then(__webpack_require__.bind(null, 43)).then(c => wrapFunctional(c.default || c)),
   EventPage: () => __webpack_require__.e(/* import() | components/event-page */ 18).then(__webpack_require__.bind(null, 44)).then(c => wrapFunctional(c.default || c)),
-  EventTwo: () => __webpack_require__.e(/* import() | components/event-two */ 19).then(__webpack_require__.bind(null, 55)).then(c => wrapFunctional(c.default || c)),
-  Faq: () => __webpack_require__.e(/* import() | components/faq */ 20).then(__webpack_require__.bind(null, 51)).then(c => wrapFunctional(c.default || c)),
+  EventTwo: () => __webpack_require__.e(/* import() | components/event-two */ 19).then(__webpack_require__.bind(null, 66)).then(c => wrapFunctional(c.default || c)),
+  Faq: () => __webpack_require__.e(/* import() | components/faq */ 20).then(__webpack_require__.bind(null, 62)).then(c => wrapFunctional(c.default || c)),
   Footer: () => __webpack_require__.e(/* import() | components/footer */ 21).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c)),
-  Funfact: () => __webpack_require__.e(/* import() | components/funfact */ 22).then(__webpack_require__.bind(null, 52)).then(c => wrapFunctional(c.default || c)),
+  Funfact: () => __webpack_require__.e(/* import() | components/funfact */ 22).then(__webpack_require__.bind(null, 63)).then(c => wrapFunctional(c.default || c)),
   GalleryPage: () => __webpack_require__.e(/* import() | components/gallery-page */ 23).then(__webpack_require__.bind(null, 45)).then(c => wrapFunctional(c.default || c)),
-  GalleryTestimonial: () => __webpack_require__.e(/* import() | components/gallery-testimonial */ 24).then(__webpack_require__.bind(null, 64)).then(c => wrapFunctional(c.default || c)),
-  GalleryTwo: () => __webpack_require__.e(/* import() | components/gallery-two */ 25).then(__webpack_require__.bind(null, 54)).then(c => wrapFunctional(c.default || c)),
-  GoogleMap: () => __webpack_require__.e(/* import() | components/google-map */ 26).then(__webpack_require__.bind(null, 66)).then(c => wrapFunctional(c.default || c)),
+  GalleryTestimonial: () => __webpack_require__.e(/* import() | components/gallery-testimonial */ 24).then(__webpack_require__.bind(null, 51)).then(c => wrapFunctional(c.default || c)),
+  GalleryTwo: () => __webpack_require__.e(/* import() | components/gallery-two */ 25).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c)),
+  GoogleMap: () => __webpack_require__.e(/* import() | components/google-map */ 26).then(__webpack_require__.bind(null, 53)).then(c => wrapFunctional(c.default || c)),
   NavOne: () => __webpack_require__.e(/* import() | components/nav-one */ 27).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c)),
-  NavTwo: () => __webpack_require__.e(/* import() | components/nav-two */ 28).then(__webpack_require__.bind(null, 46)).then(c => wrapFunctional(c.default || c)),
+  NavTwo: () => __webpack_require__.e(/* import() | components/nav-two */ 28).then(__webpack_require__.bind(null, 57)).then(c => wrapFunctional(c.default || c)),
   PageHeader: () => __webpack_require__.e(/* import() | components/page-header */ 29).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c)),
-  Pricing: () => __webpack_require__.e(/* import() | components/pricing */ 30).then(__webpack_require__.bind(null, 53)).then(c => wrapFunctional(c.default || c)),
-  ServiceOne: () => __webpack_require__.e(/* import() | components/service-one */ 31).then(__webpack_require__.bind(null, 61)).then(c => wrapFunctional(c.default || c)),
-  ServiceTwo: () => __webpack_require__.e(/* import() | components/service-two */ 32).then(__webpack_require__.bind(null, 48)).then(c => wrapFunctional(c.default || c)),
-  SliderOne: () => __webpack_require__.e(/* import() | components/slider-one */ 33).then(__webpack_require__.bind(null, 59)).then(c => wrapFunctional(c.default || c)),
-  SliderTwo: () => __webpack_require__.e(/* import() | components/slider-two */ 34).then(__webpack_require__.bind(null, 47)).then(c => wrapFunctional(c.default || c)),
+  Pricing: () => __webpack_require__.e(/* import() | components/pricing */ 30).then(__webpack_require__.bind(null, 64)).then(c => wrapFunctional(c.default || c)),
+  ServiceOne: () => __webpack_require__.e(/* import() | components/service-one */ 31).then(__webpack_require__.bind(null, 48)).then(c => wrapFunctional(c.default || c)),
+  ServiceTwo: () => __webpack_require__.e(/* import() | components/service-two */ 32).then(__webpack_require__.bind(null, 59)).then(c => wrapFunctional(c.default || c)),
+  SliderOne: () => __webpack_require__.e(/* import() | components/slider-one */ 33).then(__webpack_require__.bind(null, 46)).then(c => wrapFunctional(c.default || c)),
+  SliderTwo: () => __webpack_require__.e(/* import() | components/slider-two */ 34).then(__webpack_require__.bind(null, 58)).then(c => wrapFunctional(c.default || c)),
   Team: () => __webpack_require__.e(/* import() | components/team */ 35).then(__webpack_require__.bind(null, 31)).then(c => wrapFunctional(c.default || c)),
   TestimonialOne: () => __webpack_require__.e(/* import() | components/testimonial-one */ 36).then(__webpack_require__.bind(null, 33)).then(c => wrapFunctional(c.default || c)),
   VideoCard: () => __webpack_require__.e(/* import() | components/video-card */ 37).then(__webpack_require__.bind(null, 32)).then(c => wrapFunctional(c.default || c)),
-  VideoCardTwo: () => __webpack_require__.e(/* import() | components/video-card-two */ 38).then(__webpack_require__.bind(null, 60)).then(c => wrapFunctional(c.default || c)),
-  Volunteers: () => __webpack_require__.e(/* import() | components/volunteers */ 39).then(__webpack_require__.bind(null, 58)).then(c => wrapFunctional(c.default || c))
+  VideoCardTwo: () => __webpack_require__.e(/* import() | components/video-card-two */ 38).then(__webpack_require__.bind(null, 47)).then(c => wrapFunctional(c.default || c)),
+  Volunteers: () => __webpack_require__.e(/* import() | components/volunteers */ 39).then(__webpack_require__.bind(null, 56)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {

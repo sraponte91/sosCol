@@ -28,12 +28,12 @@
                       <li>
                         <nuxt-link to="/">Home One</nuxt-link>
                       </li>
-                      <li><nuxt-link to="/index-2">Home Two</nuxt-link></li>
+                      <li><nuxt-link to="/index-1">Home Two</nuxt-link></li>
                       <li class="dropdown">
                         <a href="#">Header Styles</a>
                         <ul>
                           <li><nuxt-link to="/">Header One</nuxt-link></li>
-                          <li><nuxt-link to="/index-2">Header Two</nuxt-link></li>
+                          <li><nuxt-link to="/index-1">Header Two</nuxt-link></li>
                         </ul>
                       </li>
                     </ul>
@@ -115,12 +115,12 @@
                 <li>
                   <nuxt-link to="/">Home One</nuxt-link>
                 </li>
-                <li><nuxt-link to="/index-2">Home Two</nuxt-link></li>
+                <li><nuxt-link to="/index-1">Home Two</nuxt-link></li>
                 <li class="dropdown">
                   <a href="#">Header Styles</a>
                   <ul>
                     <li><nuxt-link to="/">Header One</nuxt-link></li>
-                    <li><nuxt-link to="/index-2">Header Two</nuxt-link></li>
+                    <li><nuxt-link to="/index-1">Header Two</nuxt-link></li>
                   </ul>
                 </li>
               </ul>
@@ -182,12 +182,12 @@
                   <li>
                     <nuxt-link to="/">Home One</nuxt-link>
                   </li>
-                  <li class="current"><nuxt-link to="/index-2">Home Two</nuxt-link></li>
+                  <li class="current"><nuxt-link to="/index-1">Home Two</nuxt-link></li>
                   <li class="dropdown">
                     <a href="#">Header Styles</a>
                     <ul>
                       <li><nuxt-link to="/">Header One</nuxt-link></li>
-                      <li class="current"><nuxt-link to="/index-2">Header Two</nuxt-link></li>
+                      <li class="current"><nuxt-link to="/index-1">Header Two</nuxt-link></li>
                     </ul>
                   </li>
                 </ul>

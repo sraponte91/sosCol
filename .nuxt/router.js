@@ -12,7 +12,7 @@ const _ce9ec226 = () => interopDefault(import('../pages/contact.vue' /* webpackC
 const _4cba3d9c = () => interopDefault(import('../pages/event-details.vue' /* webpackChunkName: "pages/event-details" */))
 const _7a4e2c5c = () => interopDefault(import('../pages/events.vue' /* webpackChunkName: "pages/events" */))
 const _1625091f = () => interopDefault(import('../pages/gallery.vue' /* webpackChunkName: "pages/gallery" */))
-const _bc660d78 = () => interopDefault(import('../pages/index-2.vue' /* webpackChunkName: "pages/index-2" */))
+const _bc823c7a = () => interopDefault(import('../pages/index-1.vue' /* webpackChunkName: "pages/index-1" */))
 const _1511b7d6 = () => interopDefault(import('../pages/news.vue' /* webpackChunkName: "pages/news" */))
 const _09bbaccb = () => interopDefault(import('../pages/news-details.vue' /* webpackChunkName: "pages/news-details" */))
 const _7b0a2bec = () => interopDefault(import('../pages/volunteers.vue' /* webpackChunkName: "pages/volunteers" */))
@@ -62,9 +62,9 @@ export const routerOptions = {
     component: _1625091f,
     name: "gallery"
   }, {
-    path: "/index-2",
-    component: _bc660d78,
-    name: "index-2"
+    path: "/index-1",
+    component: _bc823c7a,
+    name: "index-1"
   }, {
     path: "/news",
     component: _1511b7d6,

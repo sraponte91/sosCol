@@ -1,58 +1,66 @@
 <template>
   <div>
-    <NavOne/>
-    <SliderOne />
-    <VideoCardTwo />
-    <ServiceOne />
-    <AboutCounter />
+    <NavTwo />
+    <SliderTwo />
+    <ServiceTwo />
+    <AboutTwo />
+    <VideoCard />
     <Causes />
-    <CallToActionTwo />
-    <Donate />
-    <Team />
-    <GalleryTestimonial />
+    <CauseFeatured />
+    <Faq />
+    <TestimonialOne />
+    <Funfact />
+    <Pricing />
+    <GalleryTwo />
+    <EventTwo />
     <BlogHome />
-    <CallToAction />
-    <GoogleMap />
     <Brands />
     <Footer />
   </div>
 </template>
 
+
 <script>
-  import NavOne from "../components/NavOne";
-  import SliderOne from "../components/SliderOne";
-  import VideoCardTwo from "../components/VideoCardTwo";
-  import ServiceOne from "../components/ServiceOne";
-  import AboutCounter from "../components/AboutCounter";
+
+  import NavTwo from "../components/NavTwo";
+  import SliderTwo from "../components/SliderTwo";
+  import ServiceTwo from "../components/ServiceTwo";
+  import AboutTwo from "../components/AboutTwo";
+  import VideoCard from "../components/VideoCard";
   import Causes from "../components/Causes";
-  import CallToActionTwo from "../components/CallToActionTwo";
-  import Donate from "../components/Donate";
-  import Team from "../components/Team";
-  import GalleryTestimonial from "../components/GalleryTestimonial";
-  import BlogHome from "../components/BlogHome";
-  import CallToAction from "../components/CallToAction";
-  import GoogleMap from "../components/GoogleMap";
+  import CauseFeatured from "../components/CauseFeatured";
+  import Faq from "../components/Faq";
+  import TestimonialOne from "../components/TestimonialOne";
+  import Funfact from "../components/Funfact";
+  import Pricing from "../components/Pricing";
+  import GalleryTwo from "../components/GalleryTwo";
+  import EventTwo from "../components/EventTwo";
   import Brands from "../components/Brands";
   import Footer from "../components/Footer";
-
+  import BlogHome from "../components/BlogHome";
   export default {
     components: {
-      Footer,
-      GoogleMap,
-      CallToAction,
       BlogHome,
-      Donate,
-      CallToActionTwo,
-      ServiceOne,
-      SliderOne,
-      NavOne,
-      VideoCardTwo,
-      AboutCounter,
-      Causes,
-      Team,
-      GalleryTestimonial,
+      Footer,
       Brands,
+      EventTwo,
+      GalleryTwo,
+      Pricing,
+      Funfact,
+      TestimonialOne,
+      Faq,
+      CauseFeatured,
+      Causes,
+      VideoCard,
+      AboutTwo,
+      ServiceTwo,
+      SliderTwo,
+      NavTwo
+    },
+    head(){
+      return {
+        title: "Azino | Home 2"
+      }
     }
   }
 </script>
-
